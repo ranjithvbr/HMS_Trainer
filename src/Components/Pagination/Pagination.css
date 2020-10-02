@@ -1,0 +1,59 @@
+.mypagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+    /* width: 80%; */
+    justify-content: flex-end;
+  }
+  .mypagination > .active > a{
+    background-color: #82AE3F ;
+    border-color: #82AE3F ;
+    color: #fff;
+  }
+  .mypagination > .active {
+    border:0px !important
+  }
+
+  .mypagination > li > a{
+    /* border: 1px solid orange ; */
+    padding: .7rem 0.8rem;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  .mypagination > .active > a, .mypagination > .active > span, .mypagination > .active > a:hover, .mypagination > .active > span:hover, .mypagination > .active > a:focus, .mypagination > .active > span:focus{
+    background-color: #82AE3F ;
+    border-color: #82AE3F;
+    outline: none ;
+    
+  }
+  .mypagination > li > a, .mypagination > li > span{
+    color: #82AE3F;
+    background: #fff;
+    
+  }
+  .mypagination > li:first-child > a, .mypagination > li:first-child > span, .mypagination > li:last-child > a, .mypagination > li:last-child > span{
+    border-radius: unset
+  }
+
+
+
+  .pagination__box .mypagination .previous a {
+    background-color: #82AE3F;
+    color:#fff;
+    padding: .7rem 0.8rem;
+    margin-right: .3rem;
+   
+  }
+
+  .pagination__box .mypagination .next a {
+    background-color: #82AE3F;
+    color:#fff;
+    margin-left: .3rem;
+    padding: .7rem 0.8rem;
+
+
+    
+  }
+

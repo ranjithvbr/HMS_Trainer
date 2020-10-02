@@ -1,0 +1,33 @@
+/* HEAD PAPER ALIGNMENT */
+.hms_trainer_header{
+height: 60px;
+width:100%;
+padding: 10px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+background: #F8F8F8 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px 5px 0px 0px;
+opacity: 1;
+height: 60px;
+}
+/* HEAD TITTLE */
+.media_title{
+    font-size:18px;
+    color: #86b149;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+/* PLUS ICON ALIGN */
+.plus-icon{
+ cursor: pointer;   
+}
+.plus-icon{
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin-right: 23px;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}

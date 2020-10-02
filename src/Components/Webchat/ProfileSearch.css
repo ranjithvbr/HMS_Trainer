@@ -1,0 +1,34 @@
+.web_conversation-search {
+  display: flex;
+  /* flex-direction: column; */
+  background: white;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.web_conversation-search-input {
+  background: white;
+  padding: 14px 10px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.web_conversation-search-input::placeholder {
+  text-align: left;
+}
+
+.web_conversation-search-input:focus::placeholder {
+  text-align: left;
+}
+.web_search-icon {
+  font-size: 2rem;
+  /* position: absolute; */
+  right: 5px;
+  color: grey;
+}
+.web_profile-search-icon {
+  display: flex;
+  align-items: center;
+}

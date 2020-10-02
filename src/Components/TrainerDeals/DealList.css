@@ -1,0 +1,137 @@
+.deal_list_paper_maincontainer {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+}
+.date_view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  font-size: 1.5rem !important;
+}
+
+.list_test_report {
+  color: #333;
+  font-size: 1.5rem !important;
+}
+.view {
+  font-size: 1.5rem !important;
+  color: #97b866;
+}
+.iconsdiv {
+  font-size: 2rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.edit_icon_div {
+  fill: #97b866 !important;
+}
+.delete_icon_div {
+  fill: #d11a2a !important;
+}
+.deal_paper {
+  padding: 10px;
+}
+/* 
+.paper_container {
+  height: 130px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 8px 20px rgba(143, 168, 191, 0.35) !important;
+}
+.secondpaper_maincontainer {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+.heart_div {
+  display: flex;
+  justify-content: space-between;
+  color: #817f7f;
+}
+.heart_rate {
+  display: flex;
+}
+.heartdate_per {
+  font-size: 2.2rem;
+  margin-bottom: 0px !important;
+  color: #333;
+  margin-right: 10px;
+  position: relative;
+  top: -5px;
+  margin-left: 10px;
+}
+.heart_div p {
+  margin-bottom: 0px !important;
+}
+.heart_date {
+  font-size: 1.5rem;
+}
+.progress_container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.second_paper_container {
+  margin: 15px;
+}
+.heart_rate_progress .ant-progress-bg {
+  background-color: #ff4e41 !important;
+}
+.sleep_progress .ant-progress-bg {
+  background-color: #38aca9 !important;
+}
+.running_progress .ant-progress-bg {
+  background-color: #21bdfb !important;
+}
+
+.plus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.doctor_upload_text {
+  font-size: 1.75rem;
+  color: #86b149;
+  margin-bottom: 0px !important;
+  margin-right: 20px;
+}
+
+.person_age {
+  color: #86b149;
+  font-size: 1.25rem;
+  margin-bottom: 0px !important;
+}
+.viewdetails_person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.viewdetails_persondate {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  align-items: center;
+  color: #86b149;
+  font-size: 1.25rem;
+}
+.viewdetails_persondate p {
+  margin-bottom: 0px !important;
+}
+.deal_active_flat {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.test_report {
+  font-size: 1.5rem !important;
+}
+ */

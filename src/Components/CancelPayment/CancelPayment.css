@@ -1,0 +1,219 @@
+.option_container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 22px;
+  padding: 15px 25px 15px 25px;
+}
+.option_container p {
+  margin-bottom: 0px !important;
+}
+.select_text {
+  color: #707070;
+  font-size: 22px;
+}
+.option_amt {
+  color: #82ae3f;
+  font-size: 25px;
+}
+.cancelpay_button {
+  background-color: #ffffff !important;
+  border: 1.5px solid #82ae3f !important;
+  border-radius: 0px !important;
+  font-size: 20px !important;
+  text-transform: none !important;
+  color: #82ae3f !important;
+  font-weight: bold !important;
+  padding: 5px 15px !important;
+}
+.payment_method_container {
+  background-color: #ffffff;
+  padding: 15px 0px 15px 0px;
+  font-size: 22px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.payment_method_container p {
+  margin-bottom: 0px !important;
+}
+.select_pay_text {
+  color: #82ae3f !important;
+  padding: 15px 0px 15px 25px;
+  font-size: 22px;
+}
+.select_divider {
+  height: 1px !important;
+  margin-bottom: 25px !important;
+}
+.saved_cards_container {
+  padding: 0px 0px 0px 25px;
+}
+.saved_cards {
+  color: #00000029 !important;
+}
+.payment_method {
+  font-size: 15px;
+  /* color:#707070 !important; */
+  border-right: 2px dashed rgba(0, 0, 0, 0.08);
+  display: flex;
+  margin: 10px 0px 0px 10px;
+}
+.payment_method p {
+  margin-bottom: 20px !important;
+}
+.divider_line {
+  border-left: 2px solid rgba(0, 0, 0, 0.08);
+  margin: 0px 15px 0px 10px;
+}
+.CancelPayment .formdiv .brdrcls {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000024;
+  border: 0px !important;
+}
+.CancelPayment .formdiv .selectbox .ant-select-selection--single {
+  font-size: 12px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000024;
+  border: 0px !important;
+}
+.select_expiry_date {
+  display: flex;
+}
+.summary_text {
+  font-size: normal !important;
+  color: #82ae3f !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sub_total_div {
+  display: flex;
+  font-size: 20px;
+  color: #707070;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+.summary_div {
+  padding: 30px;
+}
+.pay_now_button {
+  background-color: #82ae3f !important;
+  color: #ffff !important;
+  font-size: 22px !important;
+  height: 50px !important;
+  width: 140px !important;
+  text-transform: none !important;
+}
+.pay_now_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 20px;
+}
+.payment_method_list {
+  width: 65%;
+  padding-right: 5px;
+}
+.saved_cards_parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+.debit_child {
+  width: 90%;
+}
+.deb_img {
+  width: 100%;
+  border-radius: 10px;
+}
+.saved_cards_parent {
+  width: 100%;
+  height: 100%;
+}
+
+.debit_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment_method_child {
+  margin-bottom: 20px !important;
+  padding-right: 20px !important;
+}
+.payment_method p:active {
+  color: #82ae3f !important;
+}
+.payment_method .ant-tabs-ink-bar-animated {
+  height: 69px !important;
+  background-color: #82ae3f !important;
+}
+.payment_method .ant-tabs-nav-container {
+  border-bottom: 0px !important;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab {
+  font-size: 18px;
+  font-weight: normal;
+}
+.ant-tabs-nav-wrap {
+  height: auto !important;
+  margin-right: -1px !important;
+}
+.sub_total_div {
+  font-size: 18px;
+  color: #707070;
+  font-weight: normal;
+  justify-content: space-between;
+}
+
+.expiry_date_div {
+  width: 100%;
+  display: flex;
+}
+.expiry_day {
+  width: 70%;
+  display: flex;
+}
+.cvv_edit {
+  width: 15%;
+}
+.expiry_date_div .formdiv .brdrcls {
+  height: 29.6px;
+  font-size: 16px;
+}
+.expiry_date_div .formdiv {
+  width: 65px;
+}
+.expiry_day > div {
+  margin-right: 10px;
+}
+.labels_expirydate {
+  width: "100%";
+  display: flex;
+  margin-top: 10px;
+}
+.labels_expirydate div {
+  font-weight: bold;
+}
+.CancelPayment .formdiv .brdrcls {
+  font-size: normal;
+}
+.expiry_day .ant-select-selection-selected-value {
+  font-size: 16px;
+}
+.expiry_day .ant-select-arrow {
+  right: 6px !important;
+}
+.payment_method_container .summary_div p {
+  font-weight: normal !important;
+}
+.cancel_card_tab {
+  color: red !important;
+}
+.summary_subdiv {
+  margin-top: 25px;
+}

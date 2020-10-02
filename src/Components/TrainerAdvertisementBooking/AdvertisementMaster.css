@@ -1,0 +1,19 @@
+.revenueclinic_container .formdiv{
+   display:flex;
+   align-items: center;
+   margin-right: 15px;
+}
+.revenueclinic_container .formdiv .labeltxt{
+   padding-right:5px;
+   padding-bottom: 0px !important;
+}
+.calendar_container {
+   padding-bottom: 50px;
+   height:550px;
+}
+@media screen and (max-width: 959px) {
+
+   .calendar_container{
+      height:100%;
+   }
+   }

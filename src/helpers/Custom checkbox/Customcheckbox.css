@@ -1,0 +1,20 @@
+
+.checkbox-container2{
+    width:77%;
+    height: auto;
+}
+.checkbox-container2 .MuiTypography-body1 {
+    font-size: 1.75rem !important;
+    color: rgb(151 151 151) !important;
+}
+.checkbox-container2 .MuiSvgIcon-root {
+    height: auto !important;
+    width: 1.5em !important;    
+}
+  
+@media only screen and (max-width: 575px){
+    .checkbox-container2{
+        width:89%}
+
+
+}

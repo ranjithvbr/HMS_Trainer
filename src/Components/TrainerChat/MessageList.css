@@ -1,0 +1,115 @@
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message .timestamp {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+
+.message .web_bubble-container {
+  font-size: 14px;
+  display: flex;
+}
+
+.message.mine .web_bubble-container {
+  justify-content: flex-end;
+}
+
+.message.start .web_bubble-container .web_bubble {
+  /* margin-top: 10px; */
+  border-top-left-radius: 20px;
+}
+
+.message.end .web_bubble-container .web_bubble {
+  border-bottom-left-radius: 20px;
+  /* margin-bottom: 10px; */
+}
+
+.message.mine.start .web_bubble-container .web_bubble {
+  margin-top: 10px;
+  border-top-right-radius: 20px;
+
+}
+
+.message.mine.end .web_bubble-container .web_bubble {
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.message .web_bubble-container .web_bubble {
+  margin: 1px 0px;
+  /* background: #f4f4f8; */
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 75%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.message.mine .web_bubble-container .web_bubble {
+  /* background: #82ae3f; */
+  color: black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+/* .message.web_bubble-container.web_bubble.chat_message{
+  background-color: salmon;
+} */
+
+.web_conversation-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.img-align-left {
+  float: left;
+} 
+
+  .img-align-right {
+  float: right;
+} 
+
+.web_bubble{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.chat_message{
+  width: 40%;
+  /* border: 2px solid red; */
+  padding: 10px;
+  border-radius: 25px;
+  /* height: 40px; */
+  /* background-color: red; */
+}
+.web_message-list{
+  overflow-y: auto;
+  height: calc(100vh - 238px);
+}
+.web_message-list-container .partner .chat_message{
+  background-color: #82ae3f;
+  color: white;
+}
+.web_message-list-container .mine .chat_message{
+  background-color: #ddd;
+}
+.web_message-list-container .mine .web_conversation-photo{
+  margin-left: 10px;
+  margin-right: 0px;
+}

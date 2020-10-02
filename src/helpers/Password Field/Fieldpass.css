@@ -1,0 +1,57 @@
+
+.Textfield-pass-container{
+    width:76%
+}
+.Textfield-pass-container .MuiFormLabel-root{
+font-size: 2rem !important;
+color:grey !important;
+margin-top:3px !important;
+margin-left:2px !important;
+}   
+.Textfield-pass-container .MuiInputBase-input{
+    padding-bottom:7px !important;
+    padding-left: 8px !important;
+    font-size:initial !important;
+     margin-left: 10px !important;
+     margin-top:5px !important;
+}
+.Textfield-pass-container .MuiInput-underline:after {
+    border-bottom: 2px solid #ffffff !important;
+
+}
+.Textfield-pass-container .MuiInput-underline:before {
+    border-bottom: 2px solid #ffffff !important;
+}
+.Textfield-pass-container .MuiFormControl-root{
+    /* border-left:4px solid red !important; */
+    box-shadow: 0px 3px 14px 0px #8080803d !important;
+    width:100%;
+    height: auto !important;  
+}
+.Textfield-pass-container:focus-within{
+    border-left:5px solid rgb(80 174 89) !important;
+}
+
+.Textfield-pass-container{
+    border-left:5px solid red !important;
+}
+
+.Textfield-pass-container .MuiFormLabel-root.Mui-focused{
+    color: grey !important
+}
+.Textfield-pass-container .MUiInput-input {
+    padding: 0 !important;
+    font-size:initial !important;
+
+
+}
+.Textfield-pass-container .MuiInputLabel-formControl {
+    padding-left: 20px !important
+}
+
+@media only screen and (max-width: 575px){
+
+    .Textfield-pass-container{
+        width:90%
+    }
+}

@@ -1,0 +1,15 @@
+.web-chat-tab .ant-tabs-nav-scroll {
+  display: flex;
+  justify-content: center;
+  background-color: darkred;
+  color: wheat;
+  width: 100%;
+}
+
+.web-chat-tab .ant-tabs-tab-active {
+  color: white !important;
+}
+
+.web-chat-tab .ant-tabs-ink-bar {
+  background-color: white !important;
+}

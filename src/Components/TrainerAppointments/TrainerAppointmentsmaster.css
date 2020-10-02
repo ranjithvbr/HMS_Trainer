@@ -1,0 +1,84 @@
+.date-function{
+display: flex;
+justify-content: center;
+font-size: 1.5rem;
+}
+.date-left-icon{
+margin-top: 3px;
+margin-right: 5px;
+cursor: pointer;
+}
+.date-right-icon{
+    margin-top: 3px;
+    margin-left: 5px;  
+    cursor: pointer;
+
+}
+.display-date_div{
+    color: rgba(0, 0, 0, 0.45);
+
+}
+.titleuser
+{
+    font-size:1.75rem !important;
+    color:rgb(131 175 64) !important;
+}
+.uploadmaster
+{
+   width:100%;
+	border:none;
+	padding:10px;
+	box-shadow: 11px 23px 16px -21px;
+	background-color:#eee;
+}
+
+
+
+
+#container
+{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+#calendar_navi  #TrainerAppointmentsmaster
+{
+  
+   width:100%;
+   height:100%;
+   position: absolute;
+   top:0;
+   left:0; 
+}
+#calendar_navi
+{
+    
+    z-index: 5;
+    display: flex;
+    position: absolute;
+    top: 52px;
+    left: 123px;
+}
+.trainer
+{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.trainer_calendar_div
+{
+    top: -490px;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 950px){
+    .trainer_calendar_div
+{
+    top: -517px;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+}
+    }

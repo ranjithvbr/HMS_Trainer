@@ -1,0 +1,19 @@
+.container{
+    margin-bottom: 15px;
+}
+
+.green_upload_container{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2px;
+}
+.green_uploadint  svg{
+    width:100%;
+}
+.green_uploadint  svg circle{
+    fill:#82ae3f;
+} 
+
+.green_uploadint{
+    width:15px;
+}

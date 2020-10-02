@@ -1,0 +1,62 @@
+
+
+.modal_font{   
+    font-size: 16px !important;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  5px 5px 6px 0px #ccc;
+}
+.manage_card_arrange{
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-direction: row;
+}
+.package_flex_column{
+    justify-content: space-between;
+}
+.activ_stats{
+    margin-left: 20px;
+     color: #9abe63;
+     font-weight: 400;
+}
+.column_one{
+    width: 37%;
+    background-color:#9abe63;
+    padding: 18px;
+    color: white;
+}
+.column_two{
+    width: 60%;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.feature_head{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 8px;
+}
+.feature_bottom{
+    cursor: pointer;
+     margin-top: 20px;
+    font-size: 13px;
+     color: red !important;     
+}
+
+.key_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .icon_container{
+    display: flex;
+    align-items: flex-start;
+} */
+
+.icon_container svg{
+    font-size: 30px;
+}
+
+

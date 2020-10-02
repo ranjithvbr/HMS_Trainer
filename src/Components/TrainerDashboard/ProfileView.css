@@ -1,0 +1,202 @@
+.trainer_dashboard_view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 120px auto 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  text-align: center;
+}
+.trainer_popup_details .MuiDialog-paperWidthSm {
+  width: 400px !important;
+}
+.MuiDialog-paper {
+  overflow-y: initial !important;
+}
+.trainer_name {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.trainer_age {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: #adadad;
+}
+.trainerappointment_details_booked {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+}
+.trainerappointment_details_flexdiv {
+  display: flex;
+}
+.trainerappointment_details {
+  font-size: 16px;
+  display: flex;
+  font-weight: 00;
+  margin-left: 22px;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.trainercategories_details_div {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.75rem;
+  display: flex;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.trainercategories_details {
+  margin-bottom: 9px;
+}
+.trainer_date_fitness {
+  font-size: 16px;
+  color: #adadad;
+  margin-left: 24px;
+}
+.trainercategoreies_training {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.75rem;
+  display: flex;
+  font-weight: 300;
+  margin-left: 28px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.trainerappointment_details_time {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  display: flex;
+  font-weight: 300;
+  margin-left: 17px;
+  margin-right: 10px;
+}
+.trainer_date {
+  margin-left: 29px;
+  font-size: 16px;
+  color: #adadad;
+}
+
+.trainer_date_todate {
+  margin-left: 52px;
+  font-size: 16px;
+  color: #adadad;
+}
+.trainercategories_details_div_first {
+  width: 50%;
+}
+
+.trainercategories_details_div {
+  display: flex;
+}
+.trainercategories_details_div_second {
+  width: 50%;
+}
+.trainerappointment_details-div {
+  margin-left: 22px;
+}
+.right_arrowview {
+  font-size: 3rem !important;
+}
+/* BODY OF MODAL */
+.trainer_details_container {
+  width: 100%;
+}
+.trainer_detailsdiv {
+  width: 100%;
+  height: 100%;
+  /* opacity: 100%; */
+}
+.booked_details_font {
+  color: #666666;
+  font-size: 17px;
+}
+.trainer {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -60px;
+  z-index: 10000;
+  left: 38%;
+  padding: 0px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+}
+
+.trainer:hover {
+  transition: all 0.3s ease-in-out !important;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+}
+.profile_modal_dashboard .MuiDialog-paperWidthSm {
+  width: 600px !important;
+}
+.divider_custom {
+  width: 85%;
+  border-bottom: 1px dashed grey;
+}
+.divider_custom_right {
+  width: 1%;
+  border-right: 1px dashed grey;
+}
+.modal_custom_close {
+  right: 8px;
+  position: absolute;
+  top: 8px;
+  font-size: 28px !important;
+  color: grey;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .profile_modal_dashboard.MuiDialog-paperWidthSm {
+    width: 600px !important;
+  }
+}
+.trainerappointment_details_cat {
+  margin-left: 21px;
+  margin-bottom: 4px;
+}
+.trainer_date_in {
+  font-size: 16px;
+  color: #adadad;
+  margin-left: 52px;
+}
+.trainer_date_home {
+  margin-left: 53px;
+  font-size: 16px;
+  color: #adadad;
+}
+.d-flex {
+  margin-top: 20px;
+}
+.trainer_book_date {
+  margin-left: 28px;
+  color: #adadad;
+  font-size: 1.5rem;
+}
+.trainer_book_bill {
+  margin-left: 14px;
+  color: #adadad;
+  font-size: 1.5rem;
+}
+.img_align_dashboard {
+  width: 100%;
+  border-radius: 50%;
+  padding: 5px;
+  height: 150px;
+}

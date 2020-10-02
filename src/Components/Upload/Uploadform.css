@@ -1,0 +1,115 @@
+.upload_form_container .brdrcls {
+  font-size: 1.5rem !important;
+}
+
+.MuiTypography-body1 {
+  font-size: 1.5rem !important;
+}
+.upload_form_container .MuiFormControlLabel-root {
+  margin: 10px 0px 0px 5px !important;
+}
+.Active_Checkbox-container {
+  width: 100%;
+  height: auto;
+  margin-left: 4px;
+}
+.upload_form_container .labeltxt {
+  color: rgb(151 151 151) !important;
+}
+.button {
+  font-size: 1.5rem;
+}
+.button-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+
+.Cancel-form {
+  color: rgb(42, 40, 40) !important;
+  font-size: 1.25rem !important;
+  margin-right: 10px !important;
+  background-color: #ccc !important;
+}
+.Cancel-form:focus {
+  outline: none !important;
+}
+.Upload {
+  color: #fff !important;
+  font-size: 1.25rem !important;
+  margin-left: 10px !important;
+  background-color: #1890ff !important;
+}
+.upload_text{
+  font-size: 1.25rem;
+  margin-bottom: 0px !important;
+}
+.Upload:focus {
+  outline: none !important;
+}
+.uploadfiles-wrapper {
+  margin-left: 20px;
+}
+
+.uploadfiles-wrapper .ant-upload {
+  font-size: 1.5rem;
+  cursor: text !important;
+  color:#333;
+  width: 100%;
+}
+
+
+.Button-container {
+  font-size: 1.5rem !important;
+  padding: 8px 8px !important;
+  color: rgb(128, 128, 128) !important;
+  width: 100% !important;
+  text-transform: none !important;
+}
+.upload-button {
+  box-sizing: border-box;
+  box-shadow: 0 0 1.5px 0px #ccc;
+  margin-top: 13px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.Button-container:focus {
+  outline: none !important;
+}
+
+.Upload-button {
+  margin-bottom: 10px !important;
+}
+.upload-button .MuiButton-label {
+  display: flex;
+  justify-content: space-between;
+}
+.uploadimage-container {
+  width: 20px;
+  height: auto;
+  display: flex;
+  margin-left: 10px;
+}
+.ant-upload-list-item {
+  font-size: 1.25rem;
+}
+.uploadimage {
+  width: 100%;
+  height: auto;
+}
+.modalcomp_closeicon{
+  fill:#333 !important;
+  font-size: 2.5rem !important;
+
+}
+.upload_form_container .MuiButton-text{
+    padding:6px 16px !important;
+}
+@media only screen and (max-width: 959px) {
+  .ant-upload {
+    margin-left: 0px !important;
+  }
+}

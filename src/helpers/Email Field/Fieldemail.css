@@ -1,0 +1,57 @@
+
+.Textfield-email-container{
+    width:76%
+}
+.Textfield-email-container .MuiFormLabel-root{
+font-size: 2rem !important;
+color:grey !important;
+margin-top:3px !important;
+
+}   
+
+
+.Textfield-email-container .MuiInputBase-input{
+    padding-bottom:20px !important;
+    font-size:initial !important;
+     margin-left: 10px !important;
+     margin-top:5px !important;
+     padding: 6px 8px 7px !important; 
+}
+.Textfield-email-container .MuiInput-underline:after {
+    border-bottom: 2px solid #ffffff !important;
+
+}
+.Textfield-email-container .MuiInput-underline:before {
+    border-bottom: 2px solid #ffffff !important;
+}
+.Textfield-email-container .MuiFormControl-root{
+    box-shadow: 0px 3px 14px 0px #8080803d !important;
+    width:100%;
+    height: auto !important;  
+}
+.Textfield-email-container:focus-within{
+    border-left:5px solid rgb(80 174 89) !important;
+}
+
+.Textfield-email-container{
+    border-left:5px solid red !important;
+}
+
+.Textfield-email-container .MuiFormLabel-root.Mui-focused{
+    color: grey !important
+}
+.Textfield-email-container .MUiInput-input {
+    padding: 0 !important;
+    font-size:initial !important;
+
+}
+.Textfield-email-container .MuiInputLabel-formControl {
+    padding-left: 20px !important
+}
+@media only screen and (max-width: 575px){
+
+    .Textfield-email-container{
+        width:90%;
+        height:50%;
+    }
+}

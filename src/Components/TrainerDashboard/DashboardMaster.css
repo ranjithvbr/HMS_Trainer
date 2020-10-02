@@ -1,0 +1,29 @@
+/*  tittle of TAINER DASHBOARD */
+.tainer_dashboard .titleuser{
+/* font-size: 1.7rem; */
+ color: #86b149;
+}
+/* paper of heading */
+.tainer_dashboard .hms_trainer_header{
+    width:100%;
+    background-color: #F8F8F8;
+	padding: 5px 20px;
+	box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+	display:flex;
+	height:68px;
+    justify-content: space-between;
+	align-items: center;
+	/* font-weight: 600; */
+}
+
+.tainer_dashboard .MuiButton-outlined {
+	border: 1px solid rgba(0, 0, 0, 0.23);
+	padding:5px 15px !important;
+}
+
+ @media only screen and (max-width: 1000px){
+	.page_button_container{
+      display: block !important;
+	} 
+ }

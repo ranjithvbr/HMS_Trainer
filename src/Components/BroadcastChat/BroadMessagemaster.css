@@ -1,0 +1,45 @@
+.web_message-list-container {
+    padding: 10px;
+    /* padding-bottom: 70px; */
+    background-color: #f1f1f1;
+    height: 100% !important;
+  }
+  .web_managelist-conversation-search-input:focus{
+    outline: none !important;
+  }
+  .web_managelist-conversation-search-input {
+  
+    padding: 14px 10px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+  }
+  .web_msg-sent-box {
+    position: absolute !important;
+    bottom: 0px !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .web_sent-icon {
+    font-size: 2rem !important;
+    position: absolute;
+    right: 5px;
+  }
+  .web_msg-sent-box path{
+    fill: #82ae3f;
+  }  
+    .camera_align{
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+  
+  .unique_chat .web_msg-sent-box{
+    position: relative;
+    width:100%;
+
+  }
+
+  .unique_chat .web_managelist-conversation-search-input{
+    background-color: white;
+  }

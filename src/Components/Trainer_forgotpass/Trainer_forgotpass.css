@@ -1,0 +1,334 @@
+
+.trainer_forget_container .trainer_main_container
+{
+	width:80%;
+	height:auto;
+}
+.trainer_forget_container .trainer_grid_container
+{
+	position:relative;
+}
+
+.trainer_forget_container .inbox_icon_div
+{
+	width:20px;
+	height:20px;
+	position:absolute;
+}
+.trainer_forget_container .inbox_icon
+{
+	width:20px;
+	height:20px;
+}
+.trainer_forget_container .trainer_grid_container
+{
+	width:100%;
+	height:auto !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.trainer_forget_container .logo_image
+{
+	width:100%;
+	height:100%;
+}
+.trainer_forget_container .logo_image
+{
+	width:100%;
+	height:100%;
+}
+.trainer_forget_container .logo_image_div
+{
+	width:90px;
+	height:90px;
+}
+.trainer_forget_container .logo_container
+{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    /* background-color: red; */
+
+}
+.trainer_forget_container .label + .MuiInput-formControl {
+    margin-top: 22px !important;
+    }
+
+.trainer_forget_container .logo_div
+{
+	width:100px;
+	height:auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+.trainer_forget_container .trainer_paper_div
+{
+	align-items: center;
+	justify-content: center;
+}
+.trainer_forget_container .trainer_image_grid
+{
+	width:100%;
+	height:100%;
+	display: flex;
+}
+.trainer_forget_container .trainer_image
+{
+	width:100%;
+	height:auto;
+	position: relative;
+}
+.trainer_forget_container .trainer_image_login
+{
+	width:100%;
+	height:100%;
+
+}
+.trainer_forget_container .trainer_image_div
+{
+	width:100%;
+	height:100%;
+}
+
+
+.trainer_forget_container .lock_icon_container
+{
+	width:100%;
+	height: 100%;
+	top: 170px;
+    left: 481px;
+    position: absolute;
+}
+.trainer_forget_container .lock_icon_div
+{
+	width:20px;
+	height:20px;
+}
+
+.trainer_forget_container .lock_icon
+{
+	width:100%;
+	height:100%;
+}
+
+/* @font-face {
+  font-family: 'Roboto';
+  /* src:url('../../font/Roboto.ttf')format('truetype'); 
+}*/
+body{
+  font-family: 'Roboto';
+  margin:0;
+
+} 
+.trainer_image_loginin_container .main_containerdiv
+{
+	height:100% !important;
+	width:100% !important;
+
+}
+ .trainer_forget_container .trainer_image
+{
+  width:100%;
+  height:100vh;
+}
+
+.trainer_forget_container .Welcometext
+{
+
+  font-size: 3rem !important;
+   
+  color:rgb(131 175 64) !important;
+}
+.trainer_forget_container .trainer_Welcometext-container
+{
+	height:15%;
+	display:flex;
+	text-align:center;
+	justify-content: center;
+	align-items: flex-end;
+}
+.trainer_forget_container .Submit
+{
+	 color:rgb(80,174,89) !important;
+	 text-decoration: none !important;
+	 cursor:pointer;
+     font-size: 20px;
+}
+.trainer_text
+{
+   position: absolute;
+    top: 276px;
+    left:0px;
+    align-items: center;
+    font-size:4rem;
+    color: white;
+     font-family: 'Roboto' !important;	
+    transform: rotate(-90deg);
+}
+.trainer_submit_container
+{
+	padding-top:20px;
+}
+.trainer_forget_container .submit_container
+{
+	text-align:right;
+	margin-top:20px;
+
+}
+.trainer_forget_container .trainer_image_container
+{
+	width:100%;
+	height:100%;
+	display: flex;
+}
+.trainer_forget_container .parent
+{
+	position: relative;
+}
+.trainer_forget_container .cancel_container
+{
+	margin-top:23px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+
+	margin-bottom: 10px;
+}
+.trainer_forget_container .cancelbutton
+{
+	color:rgb(131 175 64) !important;
+}
+.trainer_forget_container .checkbox_div
+{
+	margin-top:25px;
+}
+.trainer_forget_container .remember
+{
+	color:grey;
+	font-size: 15px;
+}
+.trainer_forget_container .MuiSvgIcon-root 
+{
+	    font-size: 2.5rem !important;
+}
+.trainer_forget_container .PrivateSwitchBase-root-192 {
+   
+    padding-left: 0px !important;
+    padding-bottom: 15px !important;
+    }
+    button:focus
+{
+	outline: none !important;
+}
+   
+.trainer_forget_container .clinic_login_container ::placeholder
+{
+	font-size: 10px;
+	  font-family: 'Roboto' !important;
+
+}
+.trainer_forget_container .login
+{
+  background-color: white;
+    display: flex;
+    border-radius: 50px;
+    height: 70px;
+    width:100%;
+    background-color: green;
+    color:white;
+    font-size: 2.5rem;
+    border-radius: 2px solid green;
+    margin-top: 20px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border:none;
+       box-shadow: 0px 16px 20px 8px #ccc;
+    background-image: linear-gradient(to bottom,hsla(6, 13%, 34%, 0.58),hsl(88, 100%, 51%));
+}
+@media only screen and (max-width:959px) 
+{
+.trainer_image
+{
+	display: none;
+}
+.trainer_forget_container .trainer_main_container
+{
+	width:60%;
+	height:auto;
+	margin-top: 177px;
+}
+}
+@media only screen and (max-width:768px) 
+{
+.trainer_forget_container .trainer_main_container
+{
+	width:100%;
+	height:auto;
+	margin-top: 177px;
+}
+}
+.trainer_forget_container .MuiInputBase-input{
+
+  font-size: 15px !important;
+  height: 2rem !important;
+  font-family: 'Roboto' !important;
+  color:rgb(151 151 151) !important;
+}
+.trainer_forget_container .MuiFormControl-root .MuiInputBase-input:focus	
+{
+ font-size: 15px;
+  color:grey !important;
+}
+.trainer_forget_container .MuiInputLabel-root.Mui-focused	
+{
+   color:grey !important;
+}
+.trainer_forget_container .MuiInputLabel-formControl {
+	 font-size: 13px !important;
+	 top:10px !important;
+	 font-family: 'Roboto' !important;
+
+	}
+	.trainer_forget_container .MuiInput-underline:after {
+     transition:none !important; 
+      border-bottom: none !important;
+    pointer-events: none
+}
+.trainer_forget_container .MuiInput-underline:before {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition:none !important; 
+    pointer-events: none;
+     border-bottom: 2px solid #000000ed !important;
+}
+
+
+ .trainer_forget_container .MuiFormControl-root{
+    width:100% !important;
+    /* margin-left: 46px; */
+    /* margin-right: 46px; */
+}
+ .trainer_forget_container .MuiFormLabel-root {
+  line-height: 0!important;
+    font-family: 'Roboto' !important;
+  }
+.trainer_forget_container .inbox_icon
+{
+	width:20px;
+	height:20px;
+}
+.text_align_span{
+    text-align: center;
+}

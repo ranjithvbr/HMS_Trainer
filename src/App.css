@@ -1,0 +1,85 @@
+/* @font-face {
+  font-family:"Roboto" !important;
+  src:url('./Font/Roboto.ttf')format('truetype');
+} */
+body {
+font-family: "Roboto" !important; 
+}
+.MuiTablePagination-caption{
+  font-family:"Roboto" !important;
+
+}
+.MuiPickersDay-daySelected{
+background-color: #82AE3F !important;
+}
+
+.ant-input:hover {
+  color: none !important;
+  border-right-width: 1px !important;
+}
+.MuiButtonBase-root button:focus{
+  outline:none !important;
+
+}
+button:focus{
+  outline:none !important;
+
+}
+.label{
+  font-weight: 100 !important;
+}
+.MuiButtonGroup-root {
+  /* box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important; */
+  box-shadow: 0px 2px 5px #00000033;
+  border-radius: 2px 0px 0px 2px !important;
+  height: 40px !important;
+} 
+
+html, body { height: 100%; width: 100%; margin: 0; }
+a:hover{
+  text-decoration: none !important;
+  color:none !important;
+}
+/* 
+#style-1::-webkit-scrollbar {
+  width: 6px !important;
+  background-color: #F5F5F5;
+}  */
+body *::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  transition: 0.3s ;
+
+}
+body *::-webkit-scrollbar-thumb {
+  background: #ADAAA8;
+}
+
+.center_headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #86b149;
+    font-size: 18px;
+}
+
+.search_box_container .ant-input{
+  /* border: 1px solid #D8D8D8 !important; */
+  /* color:#333333 !important; */
+  /* font-size: 16px !important; */
+  /* font-weight: 100 !important; */
+  height: 32px !important;
+  border-radius: 3px;
+}
+
+.validation__error--minus {
+  margin-top: -12px;
+  font-size: 12px;
+  color: red;
+}
+
+/* spinner */
+
+.spinner_align span i {
+  background-color: #82AE3F;
+}

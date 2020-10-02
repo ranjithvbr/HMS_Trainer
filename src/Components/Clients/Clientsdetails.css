@@ -1,0 +1,256 @@
+
+.active-check {
+    margin-left: 10px;
+  }
+  .head-icon-2 {
+    height: 20px;
+  }
+  .head-icons {
+    font-size: 2rem;
+  }
+  .react-icon-eyeview {
+    
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .MuiMenuItem-gutters {
+    font-size: 1.25rem !important;
+  
+  }
+  .cell_eye {
+    padding-left: 20px !important;
+  }
+  .ordericon-container {
+    width: 18px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .ordericon {
+    width: 100%;
+    height: 100%;
+  }
+  .react-icons-align{
+    font-size: 2rem !important;
+    /* width:13px; */
+    fill:#333 !important
+  }
+  .nurse_dash_bottom_buttons{
+    /* width: 200px;
+    height: 100px; */
+    margin-left: 20px !important;
+   
+    font-size: 1rem !important;
+    box-shadow: 11px 23px 16px -30px black;
+  
+  }
+  .nurse_dash_bottom1{
+    color: #EC3A32 !important;
+    border: 1px solid !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    box-shadow: 0px 0px 2px #EC3A32;
+    width:210px !important;
+    text-transform: none !important;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    height: 47px !important;
+  }
+  .nurse_dash_bottom2{
+    color: #EB1E68 !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    text-transform: none !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029 !important;
+    border: 1px solid #EA2367 !important;
+    border-radius: 5px !important;
+    width:210px !important;
+    height: 47px !important;
+   
+  }
+  .nurse_dash_bottom3{
+    color: #A42AB8 !important;
+    border: 1px solid !important;
+    font-weight: 600 !important;
+   font-size: 18px !important;
+   box-shadow: 0px 0px 2px #A42AB8;
+   text-transform: none !important;
+   box-shadow: 0px 3px 6px #00000029 !important;
+   height: 47px !important;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   border: 1px solid #9C28B1 !important;
+   border-radius: 5px !important;
+  
+  }
+  .page_button_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  /* 4 cards alignment */
+  .trainer_dashboard_buttons_wrap{
+    padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  
+  }
+  /* card width and height */
+  /* .trainer_button_common_styles{
+    display:block;
+    justify-content: center;
+    height: 126px;
+    width: 25%;
+    border-radius: 7px !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-size: 1.5rem !important;
+  } */
+  /* appointment button */
+  .trainer_button1{
+    background: transparent linear-gradient(242deg, #8dc636, 0%, #8dc636 100%) 0% 0% no-repeat padding-box;
+   cursor: pointer;
+  }
+  .trainer_button2  {
+    background: transparent linear-gradient(244deg, #FEC107 0%, #FFA827 100%) 0% 0% no-repeat padding-box;
+   cursor: pointer;
+   
+  }
+  .nurse_button2{
+    background: transparent linear-gradient(245deg, #00887A 0%, #4CB050 100%) 0% 0% no-repeat padding-box;
+    cursor: pointer;
+  }
+  .trainer_button3{
+    background: transparent linear-gradient(64deg, #EE534F 0%, #EC407A 100%) 0% 0% no-repeat padding-box;
+    cursor: pointer;
+  }
+  .trainer_button4{
+    background-color: #3aa659 !important;
+   cursor: pointer;
+  
+  }
+  /* inide button alignment of all cards */
+  .trainer_button_text{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    color:#fff;
+    /* font-weight: bold; */
+    text-decoration: none !important;
+    font-size: 18px !important;
+  }
+  .nurse_dash_sidehead{
+   
+    font-size: 1.5rem !important;
+    margin-top: 20px;
+    margin-left: 20px; 
+  }
+  /*Inside line alignment */
+  .divider_container{
+    display: flex;
+    justify-content: center;
+    height: 0.5px;
+    border-radius: 20%;
+    width:85%;
+    background-color:#ffffff;
+    margin-left: 13px;
+  }
+  /* media Buttons */
+  
+  .buttons_container
+  {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 45px;
+  }
+  /* card number alignment */
+  .trainer_number_wrap{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+  }
+  /* font size of number */
+  .trainer_dash_numeric_value{
+    font-size: 3rem;
+  
+  }
+  .close_action{
+    border-radius: 50%;
+    color: #F86185;
+    font-size: 1.65rem;
+    cursor: pointer;
+    }
+    .action-eye{
+        margin-right: 12px;
+        font-size: 2rem;
+        color: #3B6BED;
+        cursor: pointer;
+    }
+    .today_Appointments{
+      padding: 15px 0px 0px 15px;
+      font-size: 18px !important;
+      margin-bottom: 0px !important;
+      align-items: center;
+      margin-bottom: 0px !important;
+      color: #333333;
+    }
+    .current_date{
+     font-size: 1.5rem;
+     margin-left: 20px;
+     font-weight: 200;
+    }
+    .head-icon {
+      height: 20px;
+    }
+    @media only screen and (max-width: 1125px){
+        /* .trainer_button_common_styles{
+            height: 100px;
+            width: 24%;
+        } */
+        .trainer_number_wrap{
+            margin-top: 8px;
+        }
+        .buttons_container{
+          bottom: 0;
+          padding-bottom: 15px !important;
+        }
+  
+    }
+    @media only screen and (max-width: 830px){
+        /* .trainer_button_common_styles{
+            height: 90px;
+            width: 120px;
+        } */
+        .trainer_button_text{
+            margin-top: 7px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 5px;
+        }
+        .trainer_number_wrap{
+            margin-top: 5px;
+        }
+  
+    }
+   /* @media only screen and (max-width: 1040px){
+   .nurse_dash_bottom3{
+             font-size: 1.25rem !important;
+    }
+    .nurse_dash_bottom1{
+      font-size: 1.25rem !important;
+  }
+  .nurse_dash_bottom2{
+    font-size: 1.25rem !important;
+  }
+  .titleuser{
+    width:35%;
+  }
+   } */
+  
+  
+  

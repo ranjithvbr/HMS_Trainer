@@ -1,0 +1,12 @@
+.cell_eye{
+  padding-left: 20px !important;
+}
+.text_clr_change{
+    color:#82AE3F !important;
+}
+.title_tag{
+  position: absolute;
+    top: 46px;
+    left: 20px;
+    font-size: 1.25rem;
+}

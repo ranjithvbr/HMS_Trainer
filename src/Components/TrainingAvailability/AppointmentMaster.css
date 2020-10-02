@@ -1,0 +1,179 @@
+.titleuser {
+  font-size: 1.75rem;
+  color: #86b149;
+  font-weight: 600;
+}
+.plus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 15px;
+}
+.plus-icon {
+  cursor: pointer;
+}
+.uploadsmasterheader {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  height: 90px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.availability-clinic-label {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.Availability-clinic-dropdown {
+  margin-top: 15px;
+}
+.availability-clinic-toggledropdown {
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 100;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: none !important;
+}
+.availability-clinic-toggledropdown:focus {
+  outline: none;
+}
+
+.uploadmaster .anticon {
+  color: #333 !important;
+}
+.plus-icon {
+  width: 40px;
+}
+.training_category_full_div {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: inherit;
+}
+
+.training_category_label_category {
+  font-size: 1.5rem;
+  margin-left: 16px;
+  /* margin-right: 14px; */
+  width: 131px;
+  color: black;
+  margin-top: 4px;
+}
+
+.training_category_first {
+  /* width: 28%; */
+}
+
+.training_category_label {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  font-weight: 100;
+  color: black;
+  margin-top: 4px;
+}
+.training_category_second {
+  /* width: 18%; */
+}
+.training_category_third {
+  /* width: 20%; */
+  display: flex;
+}
+.training_category_fourth {
+  /* width: 29%; */
+  display: flex;
+}
+
+.plus_icon {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-right: 13px;
+  margin-bottom: 10px;
+}
+.home_icon_clr path {
+  fill: #fcc872;
+}
+.lang_icon_clr path {
+  fill: rgb(110, 65, 175);
+}
+.location_icon_clr path {
+  fill: #b44c55;
+}
+.training_category_fourth svg {
+  font-size: 22px;
+}
+.delete_container svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+.subtable svg {
+  font-size: 20px;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #86b149 !important;
+}
+
+.titleuser {
+  font-size: 1.75rem;
+  color: #86b149;
+  font-weight: 600;
+}
+.plus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 15px;
+}
+.plus-icon {
+  cursor: pointer;
+}
+.uploadsmasterheader {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  height: 90px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.availability-clinic-label {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.Availability-clinic-dropdown {
+  margin-top: 15px;
+}
+.availability-clinic-toggledropdown {
+}
+
+.uploadmaster .anticon {
+  color: #333 !important;
+}
+.plus-icon {
+  width: 40px;
+}
+
+.icon_name {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  text-align: center !important;
+}
+.indoor-fitness {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  font-weight: 100;
+  color: black;
+  margin-top: 2px;
+}

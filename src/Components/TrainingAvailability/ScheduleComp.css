@@ -1,0 +1,33 @@
+.timepick{
+    border: 1px solid #d9d9d9!important;
+    border-radius: 4px !important;
+   height: 32px;
+  
+}
+.timepick .MuiInputBase-input{
+    font-size: 12px !important;
+    height: inherit;
+}
+.timepick .MuiInput-underline::before{
+    border-bottom: 0px !important;
+}
+.timepick .MuiInput-underline:after{
+    border-bottom: 0px !important;
+}
+.timepick:hover{
+    border-color: #40a9ff !important;
+}
+
+.Abi{
+    border: 1px solid #d9d9d9!important;
+    border-radius: 4px !important;
+   height: 32px;
+  
+}
+
+.noofslot{
+    border: 1px solid #d9d9d9!important;
+    border-radius: 4px !important;
+   height: 32px;
+  
+}

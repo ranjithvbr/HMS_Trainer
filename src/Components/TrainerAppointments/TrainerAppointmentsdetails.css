@@ -1,0 +1,150 @@
+
+.VendorDetailsDiv table{
+    border-collapse: separate;
+        border-spacing: 0 5px;
+        background-color: transparent;
+        padding: 15px;
+        height:400px;
+    }
+
+    .VendorDetailsDiv tr{
+        /*box-shadow: 0 0 0.5px #000;*/
+        background: white;
+    }
+    .VendorDetailsDiv thead tr{
+        background:transparent!important;
+        font-weight: bold;
+    }
+    .VendorDetailsDiv tr, .VendorDetailsDiv th, .VendorDetailsDiv td{
+            border-bottom: 0px solid rgba(224, 224, 224, 1);
+    }
+    .VendorDetailsDiv .addemployeebtn{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .VendorDetailsDiv .addemployeetxt{
+        background: white;
+        width: 177px;
+        padding: 8px;
+        justify-content: space-between;
+        box-shadow: 1px 1px 1px 1px #ccc;
+        display: inline-flex;
+        align-items: center;
+    }
+    .VendorDetailsDiv .employeeTitle{
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        color:#333;
+    }
+    .VendorDetailsDiv .Mui-selected,.VendorDetailsDiv tbody tr:hover {
+        background-color: white!important;
+        box-shadow: 0px 0 10.5px #ddd;
+    }
+    .VendorDetailsDiv tbody th, .VendorDetailsDiv tbody td{
+        color:#b5abab;
+        font-size:1.45rem;
+    }
+     .Mui-selected th,.Mui-selected  td{
+        color:#000 !important;
+    }
+    .VendorDetailsDiv .addemployeetxticon{
+        padding-left: 10px;
+        color: green;
+        font-size: 22px;
+        color: green;
+        display: inline-flex;
+    }
+    .VendorDetailsDiv  th, .VendorDetailsDiv td{
+    
+        padding-left: 15px;
+        text-align: left;
+    }
+    /*sear css */
+    .VendorDetailsDiv .searchicon{
+    margin-right: 4% !important;
+        padding-top: 2%;
+    }
+    .VendorDetailsDiv .searchicontxt{
+        color:#83af40;
+        font-size: 24px;
+    }
+    
+    .VendorDetailsDiv .paper {
+        width: '100%';
+        margin-bottom:10px !important;
+        box-shadow: none !important;
+        background-color: 'transparent';
+      }
+      
+      .VendorDetailsDiv table {
+        min-width:  750;
+      }
+      .VendorDetailsDiv .tableWrapper {
+        overflow-x: auto;
+        margin-top: 5px;
+      }
+      .VendorDetailsDiv thead tr, .VendorDetailsDiv thead th{
+        font-size: 16px;
+        color: #333;
+    }
+    .VendorDetailsDiv .cancelbtn{
+        background: darkgrey;
+        margin-right: 2%;
+        text-transform: capitalize;
+        color: #000;
+        width: 100px;
+    }
+    .VendorDetailsDiv .savebtn{
+        background: #82af3f;
+        text-transform: capitalize;
+        color: #fff;
+        width: 100px;
+    }
+    .VendorDetailsDiv tbody tr {
+        box-shadow: 0 0 0.5px #9E9E9E;
+        background: white;
+    }
+    
+    .VendorDetailsDiv tr, .VendorDetailsDiv th, .VendorDetailsDiv td {
+        border-bottom: 0px solid rgba(224, 224, 224, 1);
+    }
+
+    .MuiTablePagination-select {
+        padding-left: 8px !important;
+        padding-right: 24px !important;
+    }
+    .MuiTablePagination-caption {
+    font-size:1.5rem !important;
+
+  }
+    .MuiInputBase-input {
+    padding-bottom: 10px !important;
+    ;
+
+}
+
+.active-checkbox{
+    padding:4px !important;
+}
+.ordericon-container{
+width:18px;
+height:auto;
+cursor: pointer;
+margin-left: 10px;
+}
+.ordericon{
+    width:100%;
+    height:100%
+}
+.active-check{
+margin-left: 10px;
+}
+.UserGroup-Description{
+    padding-left: 50px !important;
+}
+.clients-eyeview{
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 10px;
+}

@@ -1,0 +1,75 @@
+/*
+.MuiFormControl-marginNormal
+{
+	display: none !important
+}*/
+.rlc-calendar
+{
+    background-color: #fff !important;
+    width:285px !important;
+}
+.rlc-details {
+    background-color: #3fa526;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+ 
+    }
+    .rlc-date-number {
+      color: #fff;
+      margin-left:10px;
+}
+.rlc-date-day-month-year
+{
+	color:#fff !important;
+	font-size: 18px;
+	margin-left: 10px;
+
+}
+
+.rlc-day-today
+{
+	background-color: #3fa526;
+}
+.rlc-navigation-button
+{
+ color:black;
+}
+.rlc-date-details-wrapper:last-child 
+{
+   display: none;
+}
+.rlc-date-details-wrapper {
+	display: flex;
+    flex-direction: column-reverse;
+    margin-left: 18px;
+    justify-content: center;
+}
+.rlc-day-selected
+{
+
+   background-color: #3fa526 !important;
+}
+.rlc-day-start-selection:hover {
+	background-color:#4CAF50 !important;
+	}
+.rlc-day-selected:hover
+{
+	background-color:#4CAF50 !important; 
+}
+.rlc-day-end-selection:hover
+{
+  background-color:#4CAF50 !important;  
+}
+.rlc-day-end-selection
+{
+	  background-color:#4CAF50 !important;  
+}
+.rlc-day-inside-selection{
+	background-color:#4CAF50 !important; 
+}
+/*.rlc-day-today
+{
+	background-color: #fff !important;
+}*/

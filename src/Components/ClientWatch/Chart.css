@@ -1,0 +1,15 @@
+.audio, canvas, progress, video{
+   height:90px !important;
+   display:flex !important;
+   justify-content: flex-start;
+   
+}
+/* .g2-tooltip,.g2-tooltip-title,.g2-tooltip-list,.g2-tooltip-marker{
+   background-color: red !important;
+} */
+
+.chart_container{
+   width: 93%;
+   display: flex;
+   justify-content: flex-end;
+}

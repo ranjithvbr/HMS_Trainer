@@ -1,0 +1,27 @@
+.profile_img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+ 
+}
+.user_profile {
+  display: flex;
+  width: 100%;
+}
+.user_profile:hover {
+  background: #82ae3f !important;
+  cursor: pointer;
+  color: white;
+}
+.profile_name{
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.profile_name_workout{
+  padding: 10px;
+}
+.profile_workout{
+  margin-bottom: 1px;
+  font-size: 10px;
+}
+

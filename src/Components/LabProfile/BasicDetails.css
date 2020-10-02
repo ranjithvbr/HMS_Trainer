@@ -1,0 +1,65 @@
+.basicdetails_firstgrid{
+    width:68%;
+    height:auto;
+}
+/* .basicdetails_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+.modalbuttons_container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width:100%;
+}
+.buttons_container:focus{
+    color:green;
+}
+.cancel_button{
+    font-size: 1.25rem !important;
+    margin-right: 15px !important;
+
+}
+.update_button{
+    font-size: 1.25rem !important;
+
+    background-color: #2196F3 !important;
+}
+
+.basicdetails_child{
+    width:100%;
+    height:100%;
+}
+.basicdetails_container .formdiv{
+    margin-bottom: 10px !important;
+}
+.basic_details_container{
+ 
+    margin-bottom: 20px;
+}
+/* .basic_details_container .labeltxt
+{
+    color:#333 !important;
+} */
+.training_basic_profile{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    padding: 10px 0px 5px 0px;
+}
+.home_icon_clr path {
+    fill: #fcc872;
+}
+.lang_icon_clr path{
+     fill: rgb(110, 65, 175);
+}
+.location_icon_clr path{
+    fill: #b44c55;
+}
+.icons_size svg{
+    font-size: 22px;
+}

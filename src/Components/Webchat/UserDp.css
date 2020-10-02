@@ -1,0 +1,19 @@
+.profile_img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  
+}
+.user_profile {
+  display: flex;
+  width: 100%;
+}
+.user_profile_text {
+  margin-top: 10px;
+  padding: 5px;
+}
+.user_profile:hover {
+  background: #eb5b00;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,224 @@
+
+.AvailabilityDetailsDiv table{
+    border-collapse: separate;
+        border-spacing: 0 5px;
+        background-color: transparent;
+        padding: 15px;
+    }
+    .AvailabilityDetailsDiv tr{
+        /*box-shadow: 0 0 0.5px #000;*/
+        background: white;
+    }
+    .AvailabilityDetailsDiv thead tr{
+        background:transparent!important;
+        font-weight: bold;
+        font-family: "Roboto-Bold" !important;
+       font-weight: 600;
+    }
+    .AvailabilityDetailsDiv tr, .AvailabilityDetailsDiv th, .AvailabilityDetailsDiv td{
+            border-bottom: 0px solid rgba(224, 224, 224, 1);
+    }
+    .AvailabilityDetailsDiv .addemployeebtn{
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .AvailabilityDetailsDiv .addemployeetxt{
+        background: white;
+        width: 177px;
+        padding: 8px;
+        justify-content: space-between;
+        box-shadow: 1px 1px 1px 1px #ccc;
+        display: inline-flex;
+        align-items: center;
+    }
+    .AvailabilityDetailsDiv .employeeTitle{
+        padding-left: 15px;
+        font-weight: bold;
+        font-size: 25px;
+        color:#333;
+    }
+    .AvailabilityDetailsDiv .Mui-selected,.AvailabilityDetailsDiv tbody tr:hover {
+        background-color: white!important;
+        box-shadow: 0px 0 10.5px #ddd;
+    }
+    .AvailabilityDetailsDiv .table>tbody>tr>th{
+        border-top:none !important;
+    }
+    .AvailabilityDetailsDiv tbody th, .AvailabilityDetailsDiv tbody td{
+        color:#b5abab;
+        font-size:1.45rem;
+        border-top:none !important;
+    }
+     .Mui-selected th,.Mui-selected  td{
+        color:#000 !important;
+    }
+    .AvailabilityDetailsDiv .addemployeetxticon{
+        padding-left: 10px;
+        color: green;
+        font-size: 22px;
+        /* padding-top: 14px; */
+        color: green;
+        /* margin-top: 20px; */
+        /* padding-top: 12px; */
+        display: inline-flex;
+    }
+    .AvailabilityDetailsDiv  th, .AvailabilityDetailsDiv td{
+    
+        padding-left: 15px;
+        text-align: left;
+    }
+    /*sear css */
+    .AvailabilityDetailsDiv .searchicon{
+    margin-right: 4% !important;
+        padding-top: 2%;
+    }
+    .AvailabilityDetailsDiv .searchicontxt{
+        color:#83af40;
+        font-size: 24px;
+    }
+    
+    .AvailabilityDetailsDiv .paper {
+        width: '100%';
+        margin-bottom:  10px;
+        background-color: 'transparent';
+      }
+      
+      .AvailabilityDetailsDiv table {
+        min-width:  750;
+      }
+      .AvailabilityDetailsDiv .tableWrapper {
+        overflow-x: auto;
+        margin-top: 5px;
+      }
+      .AvailabilityDetailsDiv thead tr, .AvailabilityDetailsDiv thead th{
+        font-size: 16px;
+        /* font-weight: bold; */
+        /* font-weight: 600; */
+        color: #333;
+    }
+    .AvailabilityDetailsDiv .cancelbtn{
+        background: darkgrey;
+        margin-right: 2%;
+        text-transform: capitalize;
+        color: #000;
+        width: 100px;
+    }
+    .AvailabilityDetailsDiv .savebtn{
+        background: #82af3f;
+        text-transform: capitalize;
+        color: #fff;
+        width: 100px;
+    }
+    .AvailabilityDetailsDiv tbody tr {
+        /* box-shadow: 0 0 0.5px #9E9E9E; */
+        background: white;
+    }
+    
+    .AvailabilityDetailsDiv tr, .AvailabilityDetailsDiv th, .AvailabilityDetailsDiv td {
+        border-bottom: 0px solid rgba(224, 224, 224, 1);
+    }
+
+    .MuiTablePagination-select {
+        padding-left: 8px !important;
+        padding-right: 24px !important;
+    }
+    .MuiTablePagination-caption {
+    font-size:1.5rem !important;
+   
+ 
+  }
+    /* .MuiInputBase-input {
+    padding-bottom: 10px !important;
+    ;
+
+} */
+.Availability-checkbox-row-div .MuiTypography-body1 {
+    font-size: 1.25rem !important;
+}
+
+
+.ant-popover-message-title {
+   
+}
+.ant-popover-buttons {
+   
+}
+.active-checkbox{
+    padding:4px !important;
+}
+.ordericon-container{
+width:18px;
+height:auto;
+cursor: pointer;
+margin-left: 10px;
+}
+.ordericon{
+    width:100%;
+    height:100%
+}
+.availability-clinic-label{
+   
+    font-size: 1.5rem;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.Availability-clinic-dropdown{
+    margin-top: 10px;
+}
+.availability-clinic-toggledropdown{
+    
+}
+.slot-duration-unit_label{
+    margin-left: 10px;
+
+}
+.no_of_slots_data{
+    margin-top:6px;
+    margin-right:20px
+}
+
+
+.Availability-sno-wrapper{
+    margin-top: 6px;
+    margin-left: 15px;
+}
+.Availability-checkbox-row-div{
+    box-sizing: border-box;
+    /* border-top-style: dashed; */
+    border-top: 2px dashed #ddd;
+}
+
+.subtable tbody tr:hover {
+    box-shadow: none !important;
+}
+
+.AvailabilityDetailsDiv table{
+    padding-top: 0px;
+}
+.AvailabilityDetailsDiv .table.MuiTable-root.table.subtable{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),
+                0px 1px 1px 0px rgba(0,0,0,0.14), 
+                0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.AvailabilityDetailsDiv .table.MuiTable-root.table.subtable:hover{
+    box-shadow: 0px 0 10.5px #ddd;
+}
+.AvailabilityDetailsDiv .table>thead>tr>th {border:none!important}
+
+table.MuiTable-root.table.headertablesub{
+    margin-bottom: 0px !important;
+}
+.AvailabilityDetailsDiv tbody tr:hover {
+    box-shadow: none;
+}
+.delete_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.delete_icon{
+    fill:rgb(237, 74, 98) !important;
+}
+.save_btn{
+    margin:5px;
+}

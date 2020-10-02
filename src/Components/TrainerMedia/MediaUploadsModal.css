@@ -1,0 +1,98 @@
+ /* TRAINER FULL DIV */
+ .trainer_mrdiauploads .media_upload{
+     color:#333;
+     font-size: 1.5rem;
+     margin-right: 30px;
+     background-color: lightgrey;
+ }
+
+ .trainer_mrdiauploads .upload-field .ant-upload.ant-upload-select{
+     display:block !important;
+ }
+.trainer_mrdiauploads  .trainerload_container{
+     width:100%;
+
+ }
+ /* MEDIA TITLE */
+ .media_title_head{
+    margin-top: 10px;
+}
+ .trainer_mrdiauploads .upload-field{
+     width:100%;
+ }
+ 
+.trainer_mrdiauploads  .trainer_mrdiauploads .formdiv .brdrcls {
+    font-size: 1.5rem !important;
+    padding: 8px !important;
+ }
+
+.trainer_mrdiauploads .uploadimage{
+       width:17px;
+ }
+ .trainermedia_upload{
+     font-size: 1.5rem;
+     margin-bottom: 10px !important;
+     margin-top: 10px;
+    
+ }
+ /*BUTTON ALIGN  */
+ 
+    .tarinermediabutton_container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width:100%;
+        margin-top: 20px;
+    }
+    .mediacancel_form{
+        background-color: rgb(38, 128, 235) !important;
+        color:#fff !important;
+        font-size: 1.25rem !important;
+        padding:6px 16px !important;   
+    }
+    .trainer_mrdiauploads .tarinerButton_container{
+        width:100% !important;
+        display:flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        border: 1px solid #ccc !important;
+        font-size: 1.25rem !important;
+        border-radius: 2px !important;
+        box-shadow: 0 0 1.5px 0px #ccc;
+    }
+ /*  */
+ /* CHECKBOX ALIGN */
+    .trainermedia_checkbox{
+        margin-top: 10px;
+    }
+    .media_active{
+        color:#333 !important;
+        font-size: 1.5rem;
+        position: relative;
+        top: 10px;
+    }
+    .media_checkbox_container{
+        margin-top: 10px !important;
+    }
+    .media_checkbox_container .MuiIconButton-root{
+        padding: 15px 10px 0px 0px !important;
+    }
+/*  */
+.info_icon{
+    color:#fbd879 !important;
+    margin-left: 5px;
+}
+.trainermedia_button .MuiButton-text {
+    padding: 8px 8px !important;
+}
+.trainer_mrdiauploads .labeltxt{
+  color:#333 !important;
+}
+
+.trainer_mrdiauploads .formdiv .brdrcls{
+    font-size: 1.5rem !important;
+}
+.MuiGrid-spacing-xs-3{
+
+    margin: 0px !important;
+}

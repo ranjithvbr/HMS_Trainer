@@ -1,0 +1,280 @@
+.VendorDetailsDiv table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  background-color: transparent;
+  padding: 0px 15px 15px 15px;
+  height: auto !important;
+}
+.VendorDetailsDiv tr {
+  /*box-shadow: 0 0 0.5px #000;*/
+  background: white;
+}
+.VendorDetailsDiv thead tr {
+  background: transparent !important;
+  font-weight: bold;
+}
+.VendorDetailsDiv tr,
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  border-bottom: 0px solid rgba(224, 224, 224, 1);
+}
+.VendorDetailsDiv .addemployeebtn {
+  text-align: left;
+  padding-bottom: 20px;
+}
+.VendorDetailsDiv .addemployeetxt {
+  background: white;
+  width: 177px;
+  padding: 8px;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  display: inline-flex;
+  align-items: center;
+}
+.VendorDetailsDiv .employeeTitle {
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 25px;
+  color: #333;
+}
+
+.VendorDetailsDiv tbody th,
+.VendorDetailsDiv tbody td {
+  color: #666666;
+  font-size: 14px;
+  padding-top: 15px !important;
+}
+.Mui-selected th,
+.Mui-selected td {
+  color: #000 !important;
+}
+.VendorDetailsDiv .addemployeetxticon {
+  padding-left: 10px;
+  color: green;
+  font-size: 22px;
+  /* padding-top: 14px; */
+  color: green;
+  /* margin-top: 20px; */
+  /* padding-top: 12px; */
+  display: inline-flex;
+}
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  padding-left: 15px;
+  text-align: left;
+}
+/*sear css */
+.VendorDetailsDiv .searchicon {
+  margin-right: 4% !important;
+  padding-top: 2%;
+}
+.VendorDetailsDiv .searchicontxt {
+  color: #83af40;
+  font-size: 24px;
+}
+
+.VendorDetailsDiv .paper {
+  width: "100%";
+  margin-bottom:10px;
+  box-shadow: none !important;
+
+  background-color: "transparent";
+}
+
+.VendorDetailsDiv table {
+  min-width: 750;
+}
+.VendorDetailsDiv .tableWrapper {
+  overflow-x: auto;
+  margin-top: 5px;
+  /* min-height: 375px; */
+}
+.VendorDetailsDiv thead tr,
+.VendorDetailsDiv thead th {
+  font-size: 16px;
+  /* font-weight: bold; */
+  color: #333333 !important;
+}
+.VendorDetailsDiv .cancelbtn {
+  background: darkgrey;
+  margin-right: 2%;
+  text-transform: capitalize;
+  color: #000;
+  width: 100px;
+}
+.VendorDetailsDiv .savebtn {
+  background: #82af3f;
+  text-transform: capitalize;
+  color: #fff;
+  width: 100px;
+}
+.VendorDetailsDiv tbody tr {
+  box-shadow: 0 0 0.5px #9e9e9e;
+  background: white;
+}
+
+.VendorDetailsDiv tr,
+.VendorDetailsDiv th,
+.VendorDetailsDiv td {
+  border-bottom: 0px solid rgba(224, 224, 224, 1);
+}
+
+.MuiTablePagination-select {
+  padding-left: 8px !important;
+  padding-right: 24px !important;
+}
+.MuiTablePagination-caption {
+  font-size: 1.5rem !important;
+}
+.VendorDetailsDiv .MuiInputBase-input {
+  padding-bottom: 2px !important;
+}
+
+.table thead th {
+  border-bottom: 0px !important;
+}
+.VendorDetailsDiv tbody tr {
+  /* box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12) !important; */
+  box-shadow: 0px 0px 0px 0.5px #c3c3c399;
+  height: 50px;
+  border-radius: 2px !important;
+}
+
+.VendorDetailsDiv tbody tr:hover {
+  background-color: white !important;
+  box-shadow: 5px 5px 5px 0px #e0e0e0, inset 4px 4px 15px 0px #e4e4e4,
+    -1px 2px 0px 2px rgba(224, 224, 224, 0);
+  border-radius: 2px !important;
+}
+
+.VendorDetailsDiv thead tr {
+  border-bottom: 0px !important;
+  font-weight: bold !important;
+}
+
+.table > tbody > tr > th:first-child {
+  padding-left: 20px;
+}
+
+.table td,
+.table th {
+  border-top: 0px solid #dee2e6 !important;
+}
+
+.tablewatch_icon{
+  fill: #82ae3f !important;
+  font-size: 20px !important;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.tableeye_icon {
+  fill: #5377ee !important;
+  font-size: 20px !important;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.tableedit_icon {
+  fill: #82ae3f !important;
+  font-size: 20px !important;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.tabledelete_icon {
+  fill: #ee534f !important;
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.today_Appointments {
+  padding: 15px 0px 0px 15px;
+  font-size: 18px !important;
+  margin-bottom: 0px !important;
+  align-items: center;
+  margin-bottom: 0px !important;
+  color: #333333;
+}
+.current_date {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  font-weight: 200;
+}
+
+.diet-revenue_total {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.revenue-diet-total {
+  background-color: rgb(130, 174, 63);
+  width: 32%;
+  padding: 13px;
+  color: #fff;
+  border-radius: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0.5px rgba(0, 0, 0, 0.13),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.revenue-diet-total p {
+  margin-bottom: 0px !important;
+  margin-left: 5%;
+}
+
+.diet-grand_total{
+  margin-left: 5%;
+}
+/* revenue grand total */
+
+.diet-revenue_total {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.revenue-diet-total {
+  background-color: rgb(130, 174, 63);
+  width: 32%;
+  padding: 13px;
+  color: #fff;
+  border-radius: 2px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0.5px rgba(0, 0, 0, 0.13),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* for revenue mode of payment css  */
+.mode_of_pay{
+  color: #333;
+  font-weight: 700;
+  
+  display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 15px !important;
+    margin: 10px 0px 0px 30% !important;
+}
+.line_payment{
+  display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 30% !important;
+}
+.inner_line{
+  width:30% !important;
+  border: 1px solid #333 !important;
+  margin: 3px 0px 0px 0px !important;
+}
+

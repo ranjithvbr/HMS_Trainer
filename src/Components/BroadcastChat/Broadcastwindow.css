@@ -1,0 +1,22 @@
+.full_container_broad{
+    width: 100%;
+    display: flex;
+}
+.first_column_div{
+    width: 30%;
+}
+.second_column_div{
+    width: 70%;
+}
+
+/* BROADPROFILE  */
+.select_package_broadprofile{
+    font-size: 17px;
+    font-weight: 100;
+}
+.ant-select.ant-select-enabled{
+    border-radius: 1px !important;
+}
+.chat_select_width .ant-select.ant-select-enabled{
+    width: 100%;
+}

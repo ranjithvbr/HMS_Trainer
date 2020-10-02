@@ -1,0 +1,20 @@
+.other_venue_img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.other_venue {
+  display: flex;
+  width: 100%;
+}
+.other_venue_text {
+  margin-top: 10px;
+  padding: 5px;
+}
+.other_venue:hover {
+  background: #eb5b00;
+  cursor: pointer;
+  color: white;
+}
